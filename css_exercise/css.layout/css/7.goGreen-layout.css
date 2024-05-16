@@ -1,0 +1,141 @@
+div {
+    --border: 1px solid black;
+    box-sizing: border-box;
+}
+#container {
+    width: 1530px;
+    margin: 0 auto;
+}
+.main-img {
+    width: 95%;
+    height: 90%;
+    margin-left: 12px;
+}
+.caption-div {
+    text-align: center;
+    line-height: 1;
+    border: 0;
+}
+.header {
+    width: 100%;
+    height: 100px;
+}
+    .head-layer1 {
+        width: 25%;
+        height: 100%;
+        float: left;
+        background-image: url(../img/logo.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+    }
+    .head-layer2 {
+        width: 50%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+    .head-layer3 {
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+.nav {
+    width: 100%;
+    height: 30px;
+}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .nav li {
+        width: 25%;
+        float: left;
+        /* 행간을 조절하는 line-height */
+        line-height: 50px;
+        text-align: center;
+        background-color: rgb(62, 173, 62);
+    }
+    .nav a {
+        text-decoration: none;
+        --padding: 10px 30px;
+        /* display block으로 마우스 갖다 댔을 때 꽉 차게 함 */
+        display: block;
+    }
+    .nav a:link, .nav a:visited {
+        color: white;
+    }
+    /* 마우스를 갖다대면 색깔이 바뀌는 hover */
+    .nav a:hover    {
+        color: white;
+        background-color: yellowgreen;
+    }
+.main {
+    width: 100%;
+    height: 700px;
+}
+    .main-layer1 {
+        width: 15%;
+        height: 100%;
+        float: left;
+        background-image: url(../img/img/left_img.jpg);    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .main-layer2 {
+        width: 65%;
+        height: 100%;
+        float: left;
+    }
+        .main-header {
+            width: 100%;
+            height: 50%;
+        }
+            .top-left {
+                width: 50%;
+                height: 100%;
+                float: left;
+            }
+            .top-right {
+                width: 50%;
+                height: 100%;
+                float: left;
+            }
+        .main-footer {
+            width: 100%;
+            height: 50%;
+        }
+            .bottom-left {
+                width: 50%;
+                height: 100%;
+                float: left;
+            }
+            .bottom-right {
+                width: 50%;
+                height: 100%;
+                float: left;
+            }
+    .main-layer3 {
+        width: 20%;
+        height: 100%;
+        float: left;
+    }
+        
+        .right-img {
+            width: 100%;
+            height: 53%;
+            background-image: url(../img/right_img.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .chat {
+            width: 100%;
+            height: 30%;
+        }
+.footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
