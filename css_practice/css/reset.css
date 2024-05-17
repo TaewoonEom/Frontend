@@ -1,0 +1,6 @@
+/* reset css 복붙을 통해 필요없는 태그를 제외할 수 있음 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
