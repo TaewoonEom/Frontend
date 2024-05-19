@@ -15,19 +15,19 @@ header {
     height: 100px; /* header 영역 크기 설정 */   
     background-color: #045;
 }
-#logo {
-    width: 250px;
-    height: 100px;
-    padding-left: 20px; /* 왼쪽 여백 추가 */
-    line-height: 100px; /* 행간 높이 조정 */
-    float: left;
-}
-#logo h1 {
-    color: #fff;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: Merienda, cursive;
-}
+    #logo {
+        width: 250px;
+        height: 100px;
+        padding-left: 20px; /* 왼쪽 여백 추가 */
+        line-height: 100px; /* 행간 높이 조정 */
+        float: left;
+    }
+    #logo h1 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: Merienda, cursive;
+    }
     /* 네비게이터 */
     nav {
         width: 900px;
@@ -71,7 +71,7 @@ header {
         font-size: 1.2em;
     }
     .detail p {
-        line-height: 2.0;
+        line-height: 2;
         color: #222;
     }
     .detail img {
